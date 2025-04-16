@@ -1,0 +1,17 @@
+*{                    /*for whole page align in border*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #5a5a5a;
+}
+img{
+  cursor: pointer;     /*for hand sign in piuctures*/
+}
+.flex-div{               /*fro navbar in the single line */
+  display: flex;
+  align-items: center;
+}

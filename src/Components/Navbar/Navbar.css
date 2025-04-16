@@ -1,0 +1,58 @@
+nav{                        /*for navbar alignm and the box shadow*/
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-left .menu-icon{       /*menu icon size*/
+    width: 22px;
+    margin-right: 25px;
+}
+.nav-left .logo{            /*for logo sizing*/
+    width: 130px;
+}
+.nav-middle .search-box{                 /*circle around the search box*/
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{                 /*the search box size*/
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box img{               /*search image size*/
+    width: 15px;
+}
+.nav-right img{                   /*after search box 4 image sizing*/
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-right .user-icon{         /*to make the user profile in circle shape*/
+    width: 35px;
+    border-radius: 50%;
+}
+@media (max-width:900px){     /*for small size screen*/
+    .menu-icon{
+        display: none;        
+    }
+    .nav-right img{              /*remove the icon*/
+        display: none;
+    }
+    .nav-right .user-icon{       /*to lock the user icon*/
+        display: block;
+        width: 30px;
+    }
+    .logo{
+        width: 90px;            /*to reduce the logo size*/
+    }
+    .nav-middle .search-box input{
+        width: 100px;             /*to reduce the search box size*/
+    }
+
+}
